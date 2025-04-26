@@ -40,7 +40,7 @@ Install-AppFromWeb -Url $zipUrl -InstallerPath "$tempDir\7zip_installer.exe" -Ar
 
 # --- Install Adobe Acrobat Pro with MST ---
 $acrobatMsiUrl = "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300820415/AcroPro.msi"
-$acrobatMstUrl = "https://raw.githubusercontent.com/yourusername/yourrepo/main/custom.mst"
+$acrobatMstUrl = "https://github.com/git-nay/AVDDeploy/raw/refs/heads/main/AcroPro.mst"
 
 $acrobatMsiPath = "$tempDir\AcroPro.msi"
 $acrobatMstPath = "$tempDir\custom.mst"
